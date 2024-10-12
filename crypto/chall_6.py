@@ -4,6 +4,14 @@ import os
 import sys
 import re
 
+# If you're getting ModuleNotFoundError, try `pip install pycryptodome`
+
+# I was looking into this hashing scheme called LANMAN the other day, wanted to make a lil
+# challenge out of it, but it seemed a bit OP...
+# For FLAG_EASY you should be able to bruteforce
+# For FLAG_HARD brute force may still work with optimisation or if you know what you're doing with CUDA
+# alternatively rainbow tables are a thing...
+
 def prepare_des_key(key, complexity):
     # Convert the key to a binary string
     key = ''.join([bin(ord(char))[2:].zfill(8) for char in key])
