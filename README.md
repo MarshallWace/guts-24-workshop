@@ -90,7 +90,7 @@ If you need a hint, you can use what you learned in hacking the website to revea
 
 # Part 2 - cryptography
 
-In this section there are 5 cryptography challenges to solve.
+In this section there are 6 cryptography challenges to solve.
 The challenge files contain a cipher (sometimes a key and hint included) and in one case an image that you need to decode or decipher.
 
-The flags that you will find after a successful attempt will be in the format: `flag{\<some text\>}`
+The flags that you will find after a successful attempt will be in the format: `flag{\<some text\>}`, with the exception of the 2 flags in the 6th challenge.
