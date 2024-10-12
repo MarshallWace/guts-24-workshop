@@ -52,3 +52,5 @@ print(lm_hash(flag_hard, complexity=7))
 # Output:
 # d7f067637cd1df3e8731141dcca0f05d
 # f889e2f3f596b67dfca021fafdcf0885
+
+# Nb. the flag is not in the standard format. The cracked hash is the answer.
